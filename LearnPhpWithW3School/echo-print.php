@@ -17,11 +17,19 @@
 * The echo statements can be used with or without parenthees : echo or echo() .
 */
 
-echo "<h2>PHP is Fun!</h2>";
+echo("<h1>PHP is Fun!</h1>");
 echo "Hello world!<br>";
-echo "I'm about to learn PHP!<br>";
+echo "<h2>I'm about to learn PHP!<br></h2>";
 echo "This ", "string ", "was ", "made ", "with multiple parameters.";
 
+$text1 = "Learn PHP";
+$text2 = "W3schools.com";
+$x = 5;
+$y = 4;
+
+echo "<h2>" . $text1 . "</h2>" . "<br>";
+echo "Study PHP at" . $text2 . "<br>";
+echo $x + $y;
 
 
 
