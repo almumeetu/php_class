@@ -16,7 +16,7 @@
 /*
 * The echo statements can be used with or without parenthees : echo or echo() .
 */
-
+echo "<h1>Echo Statement </h1>";
 echo("<h1>PHP is Fun!</h1>");
 echo "Hello world!<br>";
 echo "<h2>I'm about to learn PHP!<br></h2>";
@@ -36,8 +36,28 @@ var_dump($text1);
 
 
 
+//Print Statement
 
-  
+print "<h1> Print Statement </h1>";
+print("<h1>PHP is Fun!</h1>");
+print "Hello world!<br>";
+print "<h2>I'm about to learn PHP!<br></h2>";
+// print "This ", "string ", "was ", "made ", "with multiple parameters.";
+
+$text1 = "Learn PHP";
+$text2 = "W3schools.com";
+$x = 5;
+$y = 4;
+
+print "<h2>" . $text1 . "</h2>" . "<br>";
+print "Study PHP at" . $text2 . "<br>";
+print $x + $y;
+
+
+var_dump($text1);
+
+
+   
 
 
 
