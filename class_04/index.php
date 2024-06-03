@@ -14,7 +14,17 @@ echo $address, "</br>";
 
 
 $totalAmount = 28900;
-$firstName = "Saikat";
+$firstName = "Saikat"."</br>";
 
 echo "Hello $firstName, Your Total Amount is : $totalAmount";
+?>
+
+
+
+<?php 
+$first_name = "My name is Al Mumeetu Saikat";
+
+$name = "$first_name";
+
+echo $name;
 ?>
