@@ -35,7 +35,9 @@ echo $x + $y;
 var_dump($text1);
 
 
-
+echo "<br>";
+echo "<br>";
+echo "<br>";
 //Print Statement
 
 print "<h1> Print Statement </h1>";
