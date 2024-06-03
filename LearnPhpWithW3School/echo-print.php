@@ -32,6 +32,8 @@ echo "Study PHP at" . $text2 . "<br>";
 echo $x + $y;
 
 
+var_dump($text1);
+
 
 
 
