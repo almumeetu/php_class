@@ -52,10 +52,23 @@ echo strpos("Hello World!", "o");
 
 
 
+echo "<br>" . "<br>";
 
+echo "<h1> String Modify </h1>";
 
+// Php has a set of built-in functions that you can use to modify strings.
 
+// Upper Case
 
+// The strtoupper() functions returns the string upper case:
+
+echo "<br>" . "<br>";
+
+$x = "Hello World!". "<br>";
+
+echo "Simple value :" ." ". $x. "<br>";
+
+echo "Uppercase : " .strtoupper($x);
 
 
 
