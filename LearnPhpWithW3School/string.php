@@ -78,5 +78,10 @@ echo strtolower($y). "<br>";
 echo str_replace("World","SAIKAT" ,$x). "<br>";
 echo str_replace("Associate Software Developer","Sinior Software Engnr" ,$x);
 
+echo "<br>";
+
+$a = "AMAR SONAR BANGLA";
+echo strrev($a);
+?> 
 
 ?>
