@@ -79,9 +79,27 @@ echo str_replace("World","SAIKAT" ,$x). "<br>";
 echo str_replace("Associate Software Developer","Sinior Software Engnr" ,$x);
 
 echo "<br>";
-
+echo "<br>";
 $a = "AMAR SONAR BANGLA";
 echo strrev($a);
-?> 
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+echo "<h1>PHP trim()</h1>";
+$x = " Hello World! ";
+echo trim($x);
+
+
+echo "<p>The whitespaces are invisible in plain HTML,<br>
+but check out the difference in two input fields:</p>";
+
+
+echo "<input value='" .trim($x) . "'>";
+echo "<br>";
+echo "<input value='" . trim($x) . "'>";
+
+
 
 ?>
