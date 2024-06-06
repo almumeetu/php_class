@@ -70,6 +70,13 @@ echo "Simple value :" ." ". $x. "<br>";
 
 echo "Uppercase : " .strtoupper($x);
 
+$x = "Hello World! My Name is Saikat. I am a Web Developer,I worked on Softzino Tecnology with the 'Associate Software Developer' Post. Thank You.";
+$y = "HELLO SAIKAT ";
+
+echo strtoupper($x). "<br>";
+echo strtolower($y). "<br>";
+echo str_replace("World","SAIKAT" ,$x). "<br>";
+echo str_replace("Associate Software Developer","Sinior Software Engnr" ,$x);
 
 
 ?>
