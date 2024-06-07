@@ -102,7 +102,25 @@ echo "<input value='" . trim($x) . "'>";
 
 echo "<h1>PHP ltrim() Function</h1>";
 
-$str = "Hello World!";
+$str = "Hello World!" . "<br>";
 echo $str . "<br>";
 echo ltrim($str,"Hello");
+
+
+echo "<br>";
+echo "<h1>Convert String into Array</h1>". "<br>";
+
+echo "The PHP explode() function splits a string into an array." . "<br>";
+// The PHP explode() function splits a string into an array.
+//The first parameter of the explode() function represents the "separator". The "separator" specifies where to split the string.
+
+$g = "Hello SAIKAT !" ;
+$f = explode(" ", $g);
+//Use the print_r() function to display the result:
+print_r($f);
+
+
+
+
+
 ?>
