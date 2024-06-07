@@ -100,6 +100,9 @@ echo "<input value='" .trim($x) . "'>";
 echo "<br>";
 echo "<input value='" . trim($x) . "'>";
 
+echo "<h1>PHP ltrim() Function</h1>";
 
-
+$str = "Hello World!";
+echo $str . "<br>";
+echo ltrim($str,"Hello");
 ?>
